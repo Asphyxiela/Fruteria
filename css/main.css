@@ -13,9 +13,8 @@ header{
     background-color: #AFC8AD;
 }
 
-header h1{
-    padding: 2rem;
-    text-align: center;
+span{
+    font-size:2rem;
 }
 
 header nav ul li{
@@ -49,8 +48,8 @@ a{
 
 .loremMain{
     text-align: center;
-    margin: 50px;
-    list-style: none;
+    margin: 20px;
+    display: inline;
 }
 
 footer h5{
@@ -66,16 +65,9 @@ main div .tamanoFrutas{
     text-align: center;
 }
 
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-}
-
 main .recetas{
-    margin: 5rem;
-    padding: 5rem;
+    margin: 2rem;
+    padding: 2rem;
 }
 
 main .imgNosotros{
@@ -95,4 +87,25 @@ main div .parrafoNosotros{
 
 main section form{
     display: inline-block;
+}
+
+section{
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+section .imgCenter img{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
+section .imgCenter{
+    text-align: center;
+}
+
+section div .precioFrutas{
+    font-weight: bold;
 }

@@ -1,0 +1,7 @@
+1. Cambiar el h1 por un SPAN y ponerlo en Main, de primero con un div para que el titulo no este en el header sino en el main. done -- 
+
+1.1 En el index quitar el nav ul li del main y reemplazarlos por DIVS cada parrafo. done --
+
+2. en la pestaña de "recetas", encerrar cada 1 en 1 div por separado (ahora mismo tienes 1 solo div para todo) encerrar cada h3 con su p en 1 div y darle margin para quitar los BR -- done
+
+3. En las imagenes a cada div añardile una class donde tenga margin-right 20px; y probar. Y tambien colocarlos como display: webkit-box
