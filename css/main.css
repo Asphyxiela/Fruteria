@@ -5,29 +5,16 @@
 }
 
 body{
-    background-color: #EEE7DA;
+    background-color: #F6F1EE;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    background-color: #AFC8AD;
+    background-color: #A8D8EA;
 }
 
 span{
     font-size:2rem;
-}
-
-header nav ul li{
-    text-align: end;
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 30rem;
-    padding: 5px;
-    list-style: none;
-}
-
-ul{
-    list-style: none;
 }
 
 a:visited{
@@ -61,10 +48,6 @@ footer h5{
     height: 2.5rem; 
 }
 
-main div .tamanoFrutas{
-    text-align: center;
-}
-
 main .recetas{
     margin: 2rem;
     padding: 2rem;
@@ -85,11 +68,11 @@ main div .parrafoNosotros{
     text-align: center;
 }
 
-main section form{
-    display: inline-block;
+.frutas, .verduras{
+    background-color: #EEEEEE;
 }
 
-section{
+.verduras{
     display: block;
     display: flex;
     justify-content: space-evenly;
@@ -108,4 +91,23 @@ section .imgCenter{
 
 section div .precioFrutas{
     font-weight: bold;
+    color: #3F72AF;
 }
+
+section div .fontKilo{
+    color: #8785A2;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+    align-self: center;
+}
+
+.sectionContacto{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding: 0 450px; }
+    .sectionContacto label {
+        font-weight: bold; }
