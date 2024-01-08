@@ -53,16 +53,23 @@ main .recetas{
     padding: 2rem;
 }
 
-main .imgNosotros{
-    margin-top: 30px;
-    width: 700px;
-    height: 500px;
+main div span{
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
 }
 
-main div .parrafoNosotros{
-    text-align: center;
-    margin-top: 50px;
+
+/*
+main div .imgNosotros{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    width: 500px;
+    height: 300px;
 }
+*/
 
 .mainForm{
     text-align: center;
@@ -111,3 +118,8 @@ h2{
     padding: 0 450px; }
     .sectionContacto label {
         font-weight: bold; }
+
+main div img{
+    margin-top: 3rem;
+    height: 480px;
+}
