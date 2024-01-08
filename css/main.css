@@ -98,7 +98,7 @@ section .imgCenter{
 
 section div .precioFrutas{
     font-weight: bold;
-    color: #3F72AF;
+    color: #000000;
 }
 
 section div .fontKilo{
@@ -121,5 +121,4 @@ h2{
 
 main div img{
     margin-top: 3rem;
-    height: 480px;
 }
